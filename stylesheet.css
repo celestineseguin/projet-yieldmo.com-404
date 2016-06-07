@@ -1,0 +1,140 @@
+
+.header  { 
+    overflow: hidden;
+    height: 77px;
+    background-color: white;
+    overflow: hidden;
+}
+.header .logo{
+    overflow: hidden;
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.header .menu {
+    float:right;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+
+.header .menu ul {
+    margin-left: 0;
+    -webkit-padding-start: 0;
+    padding-top: 15px;
+}
+
+.header .menu li{
+    list-style: none;
+    display: inline; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header .menu li a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+.header .menu li a:hover{
+    background-color: #ccc;
+}
+
+.header .menu li:last-child a{
+    background-color: black;
+    color: white;
+}
+
+h1 { font-size: 60px;
+     font-family: helvetica;
+     text-align: center;
+     color:#FFF;
+}
+
+.content {
+    text-align: center;
+    background-color:#FFDB00;
+    padding-top: 40px; 
+    
+}
+
+.content h1{
+    color:#fff;
+}
+
+.content .btn-return{
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding-left:50px;
+    line-height: 80px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background:transparent url(./images/btn-404.svg) no-repeat 0 center;
+    
+}
+
+.footer{
+   color: #fff;
+   background-color: black;
+   overflow: hidden;
+   padding-top: 40px;
+}
+
+.logo-footer{
+    margin-top:50px;
+    margin-left:10px;
+}
+
+.footer a{
+    color:#fff;
+    text-decoration:none ;
+}
+
+.footer li{
+    list-style-type: none;
+}
+
+.colone-4{
+    width: 25%;
+    float: left;
+}
+
+.colonne-4 a{
+   color: white;
+   text-decoration: none;
+   display:inline-block;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    font-family: "helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.footer .social{
+    margin-left:0;
+    -webkit-padding-start:0;
+}
+
+.footer .social li{
+    display: inline;
+}
+
+.footer .social li img{
+    width:40px;
+}
+
+
+
+
+
+
+
+
