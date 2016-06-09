@@ -5,6 +5,7 @@
     background-color: white;
     overflow: hidden;
 }
+
 .header .logo{
     overflow: hidden;
     width: 150px;
@@ -56,11 +57,11 @@ h1 { font-size: 60px;
      color:#FFF;
 }
 
-.content {
-    text-align: center;
+.content{
+    padding-top:40px;
+    text-align:center;
     background-color:#FFDB00;
-    padding-top: 40px; 
-    
+    padding-bottom:50px;
 }
 
 .content h1{
@@ -75,13 +76,17 @@ h1 { font-size: 60px;
     line-height: 80px;
     padding-top:20px;
     padding-bottom:20px;
-    background:transparent url(./images/btn-404.svg) no-repeat 0 center;
+    background:transparent url(./images/btn-continue.svg) no-repeat 0center;
     
 }
 
+/**
+* Footer
+*/
+
 .footer{
    color: #fff;
-   background-color: black;
+   background-color: #333;
    overflow: hidden;
    padding-top: 40px;
 }
@@ -129,6 +134,12 @@ html,body{
 
 .footer .social li img{
     width:40px;
+}
+
+.footer div p{
+       margin-left: auto;
+       margin-right: auto;
+       color:#fff;
 }
 
 
